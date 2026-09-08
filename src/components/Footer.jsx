@@ -1,5 +1,3 @@
-import { FaPhoneAlt } from "react-icons/fa";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -111,14 +109,6 @@ const Footer = () => {
             <div>
               <h3 className="mb-3 text-sm font-bold text-white">Contact</h3>
               <div className="flex flex-col gap-2">
-                <button
-                  type="button"
-                  onClick={() => handleLinkClick("tel:")}
-                  className="flex items-center gap-2 text-left transition-colors hover:text-primary"
-                >
-                  <FaPhoneAlt className="text-primary" aria-hidden="true" />
-                  Call 0789 713403
-                </button>
                 <button
                   type="button"
                   onClick={() => handleLinkClick("mailto:info@shilingibet.com")}
